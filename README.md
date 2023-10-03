@@ -22,3 +22,57 @@ create table student(rollno char(5), name varchar(20), age char(5), address varc
 
 ![image](https://github.com/Safeeq-Fazil/G2_DBMS/assets/118680361/d198b490-1795-4710-bb3e-e8f58b754c03)
 
+### 2) Change the above student table by adding another attribute department
+
+### SQL QUERY:
+
+```
+ALTER TABLE student
+ADD department varchar(30);
+
+```
+### OUTPUT:
+
+![image](https://github.com/Safeeq-Fazil/G2_DBMS/assets/118680361/cd8bcaf2-d997-4e9a-85fe-8af6ba84af07)
+
+### 3) Drop the student table
+
+### SQL QUERY:
+
+```
+
+drop table student;
+
+```
+
+### OUTPUT
+
+![image](https://github.com/Safeeq-Fazil/G2_DBMS/assets/118680361/3b42d688-d2ca-4667-8545-f81383c6fb92)
+
+### 4) Delete the student table using truncate keyword
+
+### SQL QUERY:
+
+```
+truncate table student;
+```
+
+### OUTPUT:
+
+![image](https://github.com/Safeeq-Fazil/G2_DBMS/assets/118680361/f7e452a1-c0a9-4087-8e55-911adb0ea481)
+
+### 5) Rename the student table to mystudent
+
+### SQL QUERY:
+```
+alter table student
+rename to mystudent;
+
+```
+### OUTPUT:
+
+![image](https://github.com/Safeeq-Fazil/G2_DBMS/assets/118680361/855fc107-aaa9-463c-9597-9389e1e35c85)
+
+### RESULT:
+
+Hence successfully created a student database and execute DDL queries using SQL.
